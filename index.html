@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WILL: Fórmulario de Pesquisa</title>
+    <link rel="icon" href="./img/logo-icone.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./img/Imagem-de-fundo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+</head>
+
+
+<body>
+    <h1>Survey Form Will</h1>
+    <h2>Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</h2>
+    <div class="caixaazul">
+<div class="img-fundo"></div>
+    <div class="caixazul-escura"> 
+
+        <div>
+            <p>Nome</p>
+            <input class="caixa-name" placeholder="Digite seu nome">
+        </div>
+
+        <div>
+            <p>Email</p>
+            <input class="caixa-email" placeholder="Digite seu Email">
+        </div>
+
+        <div>
+            <p>Idade (opcional)</p>
+            <input class="caixa-idade" type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Idade">
+        </div>
+
+        <div class="grupo-formulario">
+
+            <p>Qual opção melhor descreve sua função atual?</p>
+
+            <select id="dropdown" class="controle-formulario" name="role" required="">
+                <option disabled="" selected="" value="">Selecione a sua função atual</option>
+                <option value="student">Estudando</option>
+                <option value="job">Trabalho em tempo integral</option>
+                <option value="learner">Aprendiz em tempo integral</option>
+                <option value="preferNo">Prefiro não dizer</option>
+                <option value="other">Outro</option>
+            </select>
+        </div>
+        <div><p>Você recomendaria o Survey Form Will a um amigo?</p>
+            <div><input name="user-recommend" value="definitely" type="radio" class="input-tresOpcao" checked=""> Definitivamente</div>
+            <div><input name="user-recommend" value="definitely" type="radio" class="input-tresOpcao" checked=""> <label>Talvez</label></div>
+            <div><input name="user-recommend" value="definitely" type="radio" class="input-tresOpcao" checked=""> <label>Não tenho certeza</label></div>
+        </div>
+<div>
+  <div><select id="dropdown" class="controle-recurso" name="role" required="">
+    <option disabled="" selected="" value="">Selecione uma opção</option>
+    <option value="desafios">Desafios</option>
+    <option value="desafios">Projetos</option>
+    <option value="desafios">Comunidade</option>
+    <option value="desafios">Código Aberto</option>
+  </select></div>  
+</div>
+        <div>
+            <p>O que você gostaria de aperfeiçoar? (Marque todos os que se aplicam)</p>
+
+                <div><input type="checkbox"> <label>Front-end</label></div>
+                <div><input type="checkbox"> <label>Back-end</label></div>
+                <div><input type="checkbox"> <label>Banco de Dados</label></div>
+                <div><input type="checkbox"> <label>Desafios</label></div>
+                <div><input type="checkbox"> <label>Comunidade de Usuários e Desenvolvedores</label></div>
+                <div><input type="checkbox"> <label>Salas de Suporte do Gitter</label></div>
+                <div><input type="checkbox"> <label>Vídeos</label></div>
+                <div><input type="checkbox"> <label>Encontros de Comunidades</label></div>
+                <div><input type="checkbox"> <label>Wiki</label></div>
+                <div><input type="checkbox"> <label>Fórum</label></div>
+                <div><input type="checkbox"> <label>Cursos Adicionais</label></div>
+        </div>
+
+<div>
+    <p>Algum comentário ou sugestão?</p>
+    <textarea id="comments" class="campo-texto" name="comment" placeholder="Digite seu comentário aqui..."></textarea>
+    <br>
+    <button>Enviar</button>
+</div>
+
+    </div>
+
+</div>
+</body>
+
+</html>

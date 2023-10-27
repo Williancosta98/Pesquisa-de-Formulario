@@ -1,0 +1,167 @@
+body {
+    background-color: #252545;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+}
+
+.img-fundo {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(#252545);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.caixazul-escura {
+    width: 600px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #252545;
+    opacity: 0.94;
+    border-radius: 7px;
+    padding: 90px;
+    color: white;
+    display: inline;
+    padding-bottom: 14%;
+    padding-top: 28px;
+    padding-left: 50px
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+.caixa-name {
+    width: 600px;
+    height: 25px;
+    color: rgb(97, 95, 97);
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    padding: 0.375rem 0.75rem;
+}
+
+.caixa-email {
+    width: 600px;
+    height: 25px;
+    color: rgb(97, 95, 97);
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    padding: 0.375rem 0.75rem;
+}
+
+.caixa-idade {
+    width: 598px;
+    height: 25px;
+    color: rgb(97, 95, 97);
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    padding: 0.375rem 0.75rem;
+}
+
+.controle-formulario {
+    width: 621px;
+    height: 35px;
+    color: rgb(97, 95, 97);
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    padding: 0.375rem 0.75rem;
+}
+
+.controle-recurso {
+    width: 621px;
+    height: 35x;
+    color: rgb(97, 95, 97);
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    padding: 0.375rem 0.75rem;
+    margin-top: 10px;
+}
+
+input {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+
+}
+
+div {
+    font-size: 20px;
+
+}
+
+.campo-texto {
+    min-height: 120px;
+    width: 630px;
+    padding: 0.625rem;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(white);
+    box-sizing: border-box;
+}
+
+
+
+.caixaazul {
+    display: flex;
+
+}
+
+button{
+    width: 630px;
+    height: 45px;
+    background-color: #37af65;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
